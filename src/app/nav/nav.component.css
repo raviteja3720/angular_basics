@@ -4,13 +4,13 @@
 }
 
 .site-name {
-    padding: 10px 50px;
+    padding: 0px 50px;
     color: #e74c3c;
 }
 
 .site-menu {
-    padding: 10px 30px;
-    margin-left: 200px;
+    padding: 30px 30px;
+    margin-left: 100px;
 }
 
 a {

@@ -6,9 +6,11 @@ import { Component } from '@angular/core';
     styleUrls: ['./search.component.css']
 })
 export class SearchComponent {
-    name: string = '';
-    getName(e: any) {
-        this.name = (<HTMLInputElement>e.target).value;
-    }
 
+    searchValue: string = '';
+
+    changeValue(e: any) {
+
+        this.searchValue = (<HTMLInputElement>e.target).value;
+    }
 }
