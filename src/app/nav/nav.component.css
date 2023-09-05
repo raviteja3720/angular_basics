@@ -3,6 +3,7 @@
     background-color: #f5b041;
 }
 
+<<<<<<< HEAD
 .site-name-active {
     padding: 10px 50px;
     color: #00f3df;
@@ -11,11 +12,16 @@
 .site-name-inactive {
     padding: 10px 50px;
     color: #faab00;
+=======
+.site-name {
+    padding: 0px 50px;
+    color: #e74c3c;
+>>>>>>> cd0812bef67e1acec33676110677caf43d35bee3
 }
 
 .site-menu {
-    padding: 10px 30px;
-    margin-left: 200px;
+    padding: 30px 30px;
+    margin-left: 100px;
 }
 
 a {

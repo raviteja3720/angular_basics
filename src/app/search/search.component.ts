@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
 })
 
 export class SearchComponent {
-    name: string = '';
-    getName(e: any) {
-        this.name = (<HTMLInputElement>e.target).value;
-    }
 
+    searchValue: string = '';
+
+    changeValue(e: any) {
+
+        this.searchValue = (<HTMLInputElement>e.target).value;
+    }
 }
