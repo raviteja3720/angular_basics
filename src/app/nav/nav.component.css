@@ -3,9 +3,14 @@
     background-color: #f5b041;
 }
 
-.site-name {
+.site-name-active {
     padding: 10px 50px;
-    color: #e74c3c;
+    color: #00f3df;
+}
+
+.site-name-inactive {
+    padding: 10px 50px;
+    color: #faab00;
 }
 
 .site-menu {

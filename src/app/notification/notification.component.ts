@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-notification',
-    template: `<div class="alert alert-warning" [hidden]="displayNotification">
+    template: `<div class="alert alert-warning" [hidden]="display">
                     <p>This website uses cookies to provide better user experience</p>
                     <div class="close">
                         <button class="btn" (click)="closeNotification()">X</button>
@@ -13,8 +13,8 @@ import { Component } from '@angular/core';
     ]
 })
 export class NotificationComponent {
-    displayNotification: boolean = false;
+    display: boolean = false;
     closeNotification() {
-        this.displayNotification = true;
+        this.display = true;
     }
 }
