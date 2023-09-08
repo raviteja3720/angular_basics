@@ -3,7 +3,7 @@
 </div> -->
 
 
-<div *ngFor="let p of products">
+<div *ngFor="let p of products;index as i;even as e; odd as o;first as f;last as l">
     <div class="product-container" [ngStyle]="{backgroundColor:p.available==='Available'?'#D5F5E3':'#FADBD8'}">
         <div class="image-container"><img [src]="p.image" alt="" style="max-width: 50px; max-height: 50px;"></div>
         <div>

@@ -14,4 +14,11 @@ export class SearchComponent {
 
         this.searchValue = (<HTMLInputElement>e.target).value;
     }
+
+    name: string = '';
+    getName(e: any) {
+        this.name = (<HTMLInputElement>e.target).value;
+    }
+
+    name2: string = this.name;
 }
